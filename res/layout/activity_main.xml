@@ -86,4 +86,34 @@
         android:background="@drawable/solid"
         android:text="solid" />
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignRight="@+id/button4"
+        android:background="@drawable/gradient2"
+        android:text="gradient2" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignRight="@+id/button2"
+        android:background="@drawable/gradient3"
+        android:text="gradient3" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button9"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_selector"
+        android:text="TestShapeButton" />
+
 </RelativeLayout>
