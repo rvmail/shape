@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 圆角 -->
+    <corners
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="20dp"
+        android:radius="9dp"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="2dp" />
+ <!-- 设置圆角半径        同时设置五个属性，则Radius属性无效-->
+ 
+  <!-- 填充 -->
+    <solid
+        android:color="#729138"/><!-- 填充的颜色 -->
+
+</shape>
